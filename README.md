@@ -15,11 +15,11 @@ A data project is typically a mix of data files, scripts for processing those fi
 
 ## Managing Large Files
 
-In "'Omics" type projects one of the principle challenges is managing large data files.  Because these large files cannot be easily checked in to git they need to be managed manually.  Please use the following conventions for managing these types of files. 
+In 'Omics type projects one of the principle challenges is managing large data files.  Because these large files cannot be easily checked in to git they need to be managed manually.  Please use the following conventions for managing these types of files. 
 
-- *Include a download link* for any large files that you place in the `raw_data` directory of your project.  Various services like DropBox and Google Drive allow you to create downloadable URLs for large files but if you don't have access to these service or enough space in your account there are free alternatives available through the Australian research cloud.
+- **Include a download link** for any large files that you place in the `raw_data` directory of your project.  Various services like [DropBox](www.dropbox.com) and [Google Drive](drive.google.com) allow you to create downloadable URLs for large files but if you don't have access to these service or enough space in your account there are free alternatives available through the Australian research cloud.
 
-- *Include a script* to generate any intermediate files that feature in your code.  For example if you have R code that reads an intermediate file your code should check for the presence of that file and if it is missing it should output a message telling the user how to obtain the file (eg by running the script).
+- **Include a script** to generate any intermediate files that feature in your code.  For example if you have R code that reads an intermediate file your code should check for the presence of that file and if it is missing it should output a message telling the user how to obtain the file (eg by running the script).
 
-- *Document your HPC workflow* within the `HPC` directory of your project.  Make sure you include any scripts and batch files describing your HPC workflow and instructions on how to obtain the raw data.  Anyone who checks out your project should be able to read these instructions and rerun your analysis to bootstrap the project.
+- **Document your HPC workflow** within the `HPC` directory of your project.  Make sure you include any scripts and batch files describing your HPC workflow and instructions on how to obtain the raw data.  Anyone who checks out your project should be able to read these instructions and rerun your analysis to bootstrap the project.
 
