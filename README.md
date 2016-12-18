@@ -9,7 +9,7 @@ All projects in Marine Omics should aim to be *publication ready* almost from th
 
 ## Data Projects
 
-A data project is typically a mix of data files, scripts for processing those files and code for analysing and visualising. To make your data project readable by others it is important to follow standard conventions for organising these files into folders.  For *Marine Omics* projects you should start by using [this template]()
+A data project is typically a mix of data files, scripts for processing those files and code for analysing and visualising. To make your data project readable by others it is important to follow standard conventions for organising these files into folders.  For *Marine Omics* projects you should start by using [this template](https://github.com/marine-omics/project-template)
 
 
 
