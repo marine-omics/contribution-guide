@@ -7,6 +7,17 @@ All projects in Marine Omics should aim to be *publication ready* almost from th
 - The project should be clean in the sense that it contains only the files needed to run the analyses
 
 
+## Workflow
+
+In general you should not be pushing changes directly to any projects in `Marine Omics`.  To contribute you should follow this workflow instead
+
+1. Create a private [Fork](https://help.github.com/articles/fork-a-repo/) of the project
+2. Clone your private fork to your computer and make changes
+3. Push changes to your private fork until you are happy with the result
+4. Make a pull request to have your changes merged back with the master `Marine Omics` repo.  Assign someone other than yourself to review the pull request
+
+You should not merge your own pull requests as the point of this workflow is to encourage code review by others.
+
 ## Data Projects
 
 A data project is typically a mix of data files, scripts for processing those files and code for analysing and visualising. To make your data project readable by others it is important to follow standard conventions for organising these files into folders.  For *Marine Omics* projects you should start by using [this template](https://github.com/marine-omics/project-template)
