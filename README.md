@@ -20,7 +20,7 @@ You should not merge your own pull requests as the point of this workflow is to 
 
 ## Keeping your fork in sync
 
-If more than one person is making edits to a repository it is important to always ensure you are editing the most recent version in order to minimise the potential for merge conflicts. Before making edits you can make sure that your private fork is up to date with the latest changes by closely following the github instructions for [syncing a fork](https://help.github.com/articles/syncing-a-fork/).  
+It is important to always ensure you are editing the most recent version in order to minimise the potential for merge conflicts. Before making edits you can make sure that your private fork is up to date with the latest changes by closely following the github instructions for [syncing a fork](https://help.github.com/articles/syncing-a-fork/).  
 
 ## Data Projects
 
